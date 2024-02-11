@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <h1>Portfolio</h1>
+            <ul id="nav">
+                <img src="icon-close.svg" alt="" width="15%" id="cl">
+                <li><a href="">Home</a></li>
+                <li><a href="#">Skill's</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="icon-hamburger.svg" alt="" width="10%" id="hum">
+        </div>
+        <div class="con">
+            <h2>DESIGN YOUR WEBSITE</h2>
+            <p>Hi,I am Aaryan Web Developer</p>
+            <button>Know More</button><br>
+           <a href="https://www.instagram.com/aaryan_2890?igsh=MXYxdmdmNXYE2bjFodg"><img src="insta.jpg" alt="" width="5%"></a>
+            <img src="what.png" alt="" width="5%">
+            <img src="twi.png" alt="" width="5%">
+        </div>
+
+
+
+
+    
+
+    <div class="sk">
+        <h2>Skill's</h2>
+        <div class="skill">
+
+            <div class="box">
+                <h1>HTML</h1>
+                <p>I Have 2 Year Of Experience In HTML</p>
+                <button>More</button>
+            </div>
+            <div class="box">
+                <h1>CSS</h1>
+                <p>I Have 2 Year Of Experience In CSS</p>
+                <button>More</button>
+            </div>
+            <div class="box">
+                <h1>Javascript</h1>
+                <p>I Have 2 Year Of Experience In Javascript</p>
+                <button>More</button>
+            </div>
+            <div class="box">
+                <h1>Bootstrap</h1>
+                <p>I Have 2 Year Of Experience In Bootstrap</p>
+                <button>More</button>
+            </div>
+            <div class="box">
+                <h1>PHP</h1>
+                <p>I Have 2 Year Of Experience In PHP</p>
+                <button>More</button>
+            </div>
+            <div class="box">
+                <h1>My sql</h1>
+                <p>I Have 2 Year Of Experience In My Sql</p>
+                <button>More</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="about">
+        <h1>About</h1>
+        <div class="text">
+            <p>Hey, I am vyas aaryan now i am in sy bca and i am frontend developer
+                i can create static Website's with using html , css and js if you wnat to
+                create website for your business you can contact me.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="contact">
+        <h1>Contact</h1>
+            <div class="form">
+                <form>
+                <input type="text" placeholder="Name"required class="input"><br>
+                <input type="Eamil" placeholder="Eamil"required class="input"><br>
+                <input type="tel" placeholder="Mobile"required class="input"><br>
+                <input type="text" placeholder="Write Your Message"required class="input"><br>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+            </div>
+    </div>
+</div>
+
+    <script>
+        var nav = document.getElementById("nav");
+        var hum = document.getElementById("hum");
+        var cl = document.getElementById("cl");
+
+        cl.addEventListener("click", () => {
+            nav.style.right = "-200px";
+        });
+
+        hum.addEventListener("click", () => {
+            nav.style.right = "0px";
+
+        });
+
+
+    </script>
+</body>
+
+</html>
